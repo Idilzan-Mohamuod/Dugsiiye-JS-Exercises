@@ -1,3 +1,5 @@
+
+
 const people = [
   { name: "Ali", age: 19, city: "London" },
   { name: "Ahmed", age: 25, city: "Chicago" },
