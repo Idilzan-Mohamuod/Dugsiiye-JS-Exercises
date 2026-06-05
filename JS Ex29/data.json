@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "name": "Ali",
+    "city": "London",
+    "Purchase-Items": [
+      { "id": 101, "product": "Hp-Laptop", "quantity": 1 },
+      { "id": 102, "product": "Mouse", "quantity": 2 },
+      { "id": 103, "product": "Keyboard", "quantity": 1 },
+      { "id": 104, "product": "Charger", "quantity": 1 },
+      { "id": 105, "product": "USB-Flash", "quantity": 2 },
+      { "id": 106, "product": "Laptop-Bag", "quantity": 1 }
+    ]
+  },
+ {
+  "id": 2,
+  "name": "Sofia",
+  "city": "Tokyo",
+  "Purchase-Items": [
+    { "id": 201, "product": "MacBook-Pro", "quantity": 1 },
+    { "id": 202, "product": "AirPods-Pro", "quantity": 1 },
+    { "id": 203, "product": "4K-Monitor", "quantity": 2 },
+    { "id": 204, "product": "HDMI-Cable", "quantity": 3 },
+    { "id": 205, "product": "Desk-Mat", "quantity": 1 },
+    { "id": 206, "product": "Webcam", "quantity": 1 }
+  ]
+}
+]
