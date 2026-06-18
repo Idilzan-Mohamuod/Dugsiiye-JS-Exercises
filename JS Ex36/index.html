@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> interactive color picker with preview and history</title>
+    <style>
+#colorPreviewer{
+    border: 2px solid black;
+    width:  200px;
+    height:  200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 10px;
+    padding: 5px;
+}
+#colorHistory{
+    padding: 1px;
+    margin: 5px 0;
+}
+
+    </style>
+</head>
+<body>
+    <h1> Interactive Color Picker :Mini-Project</h1>
+    <label for="color-picker">Choose Color</label>
+    <input type="color" id="colorPicker">
+    <div id="colorPreviewer"> Color Preview</div>
+    <h2>Selected Color Historys</h2>
+    <p id="colorHistory"> </p>
+    <button id="clearSelected">Clear Selected Colors</button>
+    <script src="Ex36.js"></script>
+</body>
+</html>
