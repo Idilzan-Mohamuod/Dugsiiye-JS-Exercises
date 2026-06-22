@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Blog Project</title>
+    <link rel="stylesheet" href="Ex37.css" />
+  </head>
+  <body>
+    <h1>Simple Blog</h1>
+    <div class="blog-container">
+      <div class="form-group">
+        <h3>Create a New Post</h3>
+        <input type="text" id="blogTitle" placeholder="Enter title..." />
+      </div>
+
+      <div class="form-group">
+        <input
+          type="text"
+          id="blogImage"
+          placeholder="https://example.com/image.jpg"
+        />
+      </div>
+
+      <div class="form-group">
+        <textarea
+          id="blogComment"
+          rows="4"
+          placeholder="Write your thoughts here..."
+        ></textarea>
+      </div>
+      <button id="postBtn">Post Blog</button>
+      </div>
+      <div class="blog-posts-section">
+        <h2>All Posts</h2>
+        <div id="postsContainer"></div>
+      </div>
+    
+
+    <script src="Ex37.js"></script>
+  </body>
+</html>
