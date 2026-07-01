@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Language Translator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="translator-card">
+    <h1>Language Translator</h1>
+    
+    <div class="input-field">
+      <label>From:</label>
+      <select id="from-lang">
+        <option value="en" selected>English</option>
+        <option value="so">Somali</option>
+        <option value="es">Spanish</option>
+      </select>
+    </div>
+
+    <div class="input-field">
+      <label>To:</label>
+      <select id="to-lang">
+        <option value="so" selected>Somali</option>
+        <option value="en">English</option>
+        <option value="es">Spanish</option>
+      </select>
+    </div>
+
+    <div class="input-field">
+      <label>Text to Translate:</label>
+      <textarea id="source-text" placeholder="Enter text here..."></textarea>
+    </div>
+
+    <button type="submit" id="translate-btn">Translate</button>
+
+    <div class="result-section">
+      <h3>Translated Text:</h3>
+      <div id="translated-text"></div>
+    </div>
+  </div>
+
+  <script src="Ex39.js"></script>
+</body>
+</html>
